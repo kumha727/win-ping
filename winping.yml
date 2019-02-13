@@ -1,5 +1,6 @@
-- name: Install git
-  win_chocolatey:
+hosts: all
+tasks:
+ - win_chocolatey:
     name: firefox
     state: present
 
