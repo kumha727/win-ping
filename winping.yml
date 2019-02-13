@@ -4,5 +4,5 @@
   hosts: all 
 
   tasks:
-  - name: ping
-    win_ping:
+  - name: whoami
+    win_command: whoami
