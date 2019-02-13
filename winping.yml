@@ -5,4 +5,4 @@
 
   tasks:
   - name: ping
-    win_chocolately: firefox
+    win_ping: 
