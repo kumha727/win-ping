@@ -5,8 +5,6 @@
 
   tasks:
   - name: whoami
-    win_command: whoami
-    
-  - name: Install firefox
     win_chocolatey: firefox
-    state: present
+    state: present 
+    
